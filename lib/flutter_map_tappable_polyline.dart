@@ -101,7 +101,7 @@ class TappablePolylineLayer extends PolylineLayer {
               child: CustomPaint(
                 painter: PolylinePainter(lines, mapState),
                 size: size,
-              ),
+              ),),
           ],
         ),
       ),
